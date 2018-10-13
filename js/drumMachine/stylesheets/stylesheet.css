@@ -1,0 +1,90 @@
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  margin: auto;
+  background-color: #f8c3b9;
+  width: 100%;
+  height: 100vh;
+}
+
+#footerText {
+  color: white;
+}
+
+#drumMachine {
+  width: 600px;
+  height: 600px;
+  background-color: #e8eaec;
+
+  /*Gives box a gray border*/
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #d3d9d9;
+
+  /*Gives Box a shadow*/
+  -webkit-box-shadow: 11px 10px 21px -7px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 11px 10px 21px -7px rgba(0, 0, 0, 1);
+  box-shadow: 11px 10px 21px -7px rgba(0, 0, 0, 1);
+
+  /*Centers elements*/
+  float: none;
+  margin: 0 auto;
+}
+
+#sampleNameBox {
+  border-radius: 5%;
+  background-color: #b7dcf4;
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 300px;
+  height: 50px;
+
+  /*Gives box a border*/
+  border-radius: 2%;
+  border-style: solid;
+  border-color: #b5d4e9;
+}
+
+#sampleNameText {
+  margin: 5px;
+  text-align: center;
+  color: #4080ff;
+  font-size: 20px;
+}
+
+.drumButton {
+  width: 100px;
+  height: 100px;
+  background-color: #b5bdc4;
+  margin: 10px;
+
+  /*Gives box a border*/
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #d3d9d9;
+}
+
+
+.buttonText{
+    color: darkslategray;
+    font-size: 45px;
+    text-align: center;
+}
+.soundKitButton{
+    margin-top: 60px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#slider-vertical{
+   height:300px;
+    margin: 25px;
+}
